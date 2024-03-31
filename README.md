@@ -24,7 +24,7 @@
 <h2>Network Diagram</h2>
 <p>Below is a visual representation of the network architecture designed in this virtualized environment:</p>
 <p align="center">
-  <img src="assets/network_diagram.png" width="80%" alt="Network Diagram"/>
+  <img src="HomeLabDirectory/assets/diagram.png" width="80%" alt="Network Diagram"/>
 </p>
 
 <h2>Technical Details and Explanations</h2>
@@ -56,3 +56,6 @@
 
 <h2>Project Outcomes</h2>
 <p>This home lab project allowed me to gain hands-on experience with Windows Server administration, networking principles, and security best practices. It served as a practical exercise in setting up and configuring core services like Active Directory, DNS, DHCP, and VPN. Such skills are vital for a career in system administration, network engineering, or IT support.</p>
+
+
+
