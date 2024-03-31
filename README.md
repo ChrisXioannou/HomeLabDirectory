@@ -33,7 +33,7 @@ Below is the network architecture designed in this virtualized environment:
 The PowerShell script for creating 1000 users was adapted from Josh Madakor's tutorial. For the original script, see [Josh Madakor's GitHub repository](https://github.com/joshmadakor1/AD_PS).
 
 ## Acknowledgments
-Thanks to Josh Madakor (@joshmadakor1) for his guidance through his tutorials on setting up and configuring network services. His content provided foundational understanding and hands-on experience. For detailed instructions and script access, visit [Josh Madakor's GitHub repository](https://github.com/joshmadakor1/AD_PS).
+Thanks to Josh Madakor (@joshmadakor1) for his guidance through his tutorials on setting up and configuring network services. His content provided foundational understanding and hands-on experience.
 
 ## Project Outcomes
 This project provided hands-on experience with Windows Server administration, networking principles, and security best practices, including configuring core services like Active Directory, DNS, DHCP, and VPN.
