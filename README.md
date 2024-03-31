@@ -1,7 +1,8 @@
 <h1>Virtualized Active Directory Home Lab</h1>
 
 <h2>Description</h2>
-<p>This home lab project is a virtualized network environment created using Oracle VirtualBox. It includes a Domain Controller (DC) running Server 2019, configured with Active Directory services for a simulated internal network. The lab is designed to showcase my ability to set up and manage a network infrastructure, demonstrating core IT skills such as network management, user administration, and security principles.</p>
+<p>This home lab project represents a virtualized network environment crafted using Oracle VirtualBox. At its core, the setup features a Domain Controller (DC) running Server 2019 with a complete Active Directory services and another virtual machine running windows 10 to mimic a real-world internal network.
+This environment not only showcases my capabilities in establishing and administering network infrastructure but also highlights my proficiency in interacting with both administrative and user accounts. It provides a dynamic setting for practical application of essential IT skills, including network management, user administration, nuanced access control, and enforcing robust security protocols.</p>
 
 <h2>Languages and Utilities Used</h2>
 <ul>
@@ -16,15 +17,22 @@
 <li><b>VirtualBox</b></li>
 </ul>
 
-<h2>Network Services and Configuration:</h2>
-<p>This section explains the various network services and components used in the lab setup:</p>
+<h2>Technical Details and Explanations</h2>
+<p>Here's a brief overview of the key components of this project and their roles in a network environment:</p>
 
-<ol>
-<li><b>Active Directory</b>: Used for creating and managing multiple user accounts, handling authentication and authorization within the network.</li>
-<li><b>Domain Name System (DNS)</b>: Essential for the functioning of the Active Directory, as it provides a way to match domain names (like those of computers or services) to their respective IP addresses.</li>
-<li><b>Dynamic Host Configuration Protocol (DHCP)</b>: Automates the IP address configuration for devices on the network, including a defined range (scope) for dynamic assignment.</li>
-<li><b>Remote Access Service (RAS)/Network Address Translation (NAT)/Virtual Private Network (VPN)</b>: Provides remote access to the network, enabling NAT to facilitate internet connectivity for multiple hosts on the internal private network, and VPN to securely connect remote users to the lab network.</li>
-</ol>
+<dl>
+<dt>DC Server 19</dt>
+<dd>Refers to a Domain Controller running Windows Server 2019. This server is crucial for managing network security, user data, and services such as authentication and authorization within a domain.</dd>
+
+<dt>RAS/NAT</dt>
+<dd>Remote Access Service (RAS) and Network Address Translation (NAT) work together to provide secure remote connections to the network and allow private IP addresses to communicate with the Internet by mapping them to a public IP.</dd>
+
+<dt>DNS</dt>
+<dd>Domain Name System (DNS) is the service that translates human-friendly domain names to IP addresses, allowing users to connect to websites and other resources on the Internet or an intranet.</dd>
+
+<dt>DHCP</dt>
+<dd>Dynamic Host Configuration Protocol (DHCP) dynamically assigns IP addresses to devices on a network, simplifying the management of IP assignments and ensuring devices can communicate effectively.</dd>
+</dl>
 
 <h2>Lab Configuration Walk-through:</h2>
 
@@ -46,6 +54,12 @@
 <br />
 <br />
 </p>
+
+<h2>Acknowledgments</h2>
+<p>I would like to express my gratitude to Josh Madakor for his tutorial, which guided me through setting up and configuring the network services in this lab. His tutorial provided me with a foundational understanding and hands-on experience in a controlled environment. For further information and access to the scripts used, please refer to Josh Madakor's original materials.</p>
+
+<h2>PowerShell Script for Creating Users</h2>
+<p>The PowerShell script used for creating the 1000 users was adapted from Josh Madakor's tutorial. Due to licensing, the script is not included here, but viewers are encouraged to refer to the tutorial for detailed instructions and access to the script.</p>
 
 <h2>Project Outcomes</h2>
 <p>This home lab project allowed me to gain hands-on experience with Windows Server administration, networking principles, and security best practices. It served as a practical exercise in setting up and configuring core services like Active Directory, DNS, DHCP, and VPN. Such skills are vital for a career in system administration, network engineering, or IT support.</p>
